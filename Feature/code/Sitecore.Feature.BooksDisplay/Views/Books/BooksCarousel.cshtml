@@ -1,0 +1,34 @@
+﻿@model Sitecore.Feature.BooksDisplay.Models.CarouselViewModel
+
+<div class="col-md-12 text-center">
+    <h2 class="heading-section mb-5">@Sitecore.Globalization.Translate.Text("FeaturedBooks")</h2>
+</div>
+<div class="col-md-12">
+    <div class="featured-carousel owl-carousel">
+        @foreach (var book in Model.Books)
+        {
+            <div class="item">
+                <div class="work-wrap d-md-flex">
+                    <div class="img order-md-last" style="background-image:url(@book.BookImgSrc)"></div>
+                    <div class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
+                        <div class="desc w-100">
+                            <h2 class="mb-4">@book.BookTitle</h2>
+                            <p class="h5">@Sitecore.Globalization.Translate.Text("Price"): @book.Price</p>
+                            <p class="h5">@Sitecore.Globalization.Translate.Text("Category"): @book.Category</p>
+                            <p class="h5 mb-4">@Sitecore.Globalization.Translate.Text("AuthorEmail"): <a href="@book.Author.AuthorEmailId" class="__cf_email__">@book.Author.AuthorEmailId"</a></p>
+                            <div class="row justify-content-end">
+                                <div class="col-xl-8">
+                                    <p>@book.BookSummary</p>
+                                </div>
+                            </div>
+                            <p>
+    <button type="button" onclick="window.location = '@book.Url'" class="btn btn-dark mb-2 py-3 px-4" >@Sitecore.Globalization.Translate.Text("AboutAuthor")</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>

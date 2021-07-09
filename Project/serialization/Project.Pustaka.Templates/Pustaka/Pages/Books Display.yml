@@ -1,0 +1,28 @@
+﻿---
+ID: "ccefa8f9-40a4-4156-b755-e93e754fe033"
+Parent: "f73665c3-da3a-4e2c-8f8d-6d33dc5e3c6c"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Pustaka/Pages/Books Display
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: apps/32x32/books.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {66B01873-6E8A-4A2B-B681-B39892C9ACE8}
+    {6B507A0E-599B-42FA-8955-55FE7A5CB47D}
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{461E8586-8AF5-4D2D-8FEB-9E538F676F94}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210704T133536Z

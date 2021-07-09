@@ -1,0 +1,54 @@
+﻿---
+ID: "73054f2a-7305-4818-bce3-a077f4a4b84f"
+Parent: "ebd5bff9-f9e0-41fa-91be-e45762e62cad"
+Template: "ebd5bff9-f9e0-41fa-91be-e45762e62cad"
+Path: /sitecore/templates/Project/Pustaka/Pages/HomePage/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: apps/32x32/Home.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{CCEFA8F9-40A4-4156-B755-E93E754FE033}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{2670E8ED-B43B-4FC9-942C-0507F90D0896}">
+        <r
+          id="{B19EA874-BAF8-4786-AF89-4A68D9E9BE48}"
+          ph="header"
+          uid="{B963503D-6282-4FDD-A154-1B6022CDB835}" />
+        <r
+          id="{21AB909B-BF45-4D23-A4C3-8A988789F990}"
+          ph="main"
+          uid="{15B7F1FD-7A2F-4D47-8945-25EEC0C49D24}" />
+        <r
+          id="{DF5D2C67-C389-4E0C-B0C8-3DB167778BD8}"
+          ph="footer"
+          uid="{96BCAE14-A19D-4824-94F7-F77DD935800F}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210515T131347Z
+    - ID: "2c9d2e49-2b2e-4e02-bd13-dd1b4fd3941e"
+      Hint: metaTitle
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c5687f02-c69e-4e4a-a073-25fb4bcce84a"
+      Hint: title
+      Value: $name

@@ -1,0 +1,17 @@
+﻿---
+ID: "e354108e-203d-4025-97dc-75575ed7a67b"
+Parent: "2d427a5d-43a2-4c29-93a5-4fcf7c48940f"
+Template: "110c4bd4-4118-4ffa-be77-f8f9ce197663"
+Path: /sitecore/content/All Sites/Main Sites/Pustaka/Data/Guide To Investing
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210705T202002Z
+    - ID: "c22e1e04-c843-4d71-9aff-b6fef7974de9"
+      Hint: Title
+      Value: Guide To Investing

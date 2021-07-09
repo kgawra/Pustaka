@@ -1,0 +1,18 @@
+﻿---
+ID: "6ff60439-04f2-42fe-921c-e92fd6ede9bd"
+Parent: "134b073d-5393-4c36-83eb-1c339b4c0c71"
+Template: "ab9ae0db-5444-4525-857d-fd3e4f5164d8"
+Path: /sitecore/content/All Sites/Main Sites/Pustaka
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Pustak.com
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210704T110415Z

@@ -1,0 +1,61 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc
+
+@model RenderingModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+        Pustaka
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/Assets/css/Pustaka.css">
+    <link rel="stylesheet" href="~/Assets/css/A.style.css.pagespeed.cf.YdfXInNU8d.css" />
+    <link rel="stylesheet" href="~/Assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/Assets/css">
+    <style>
+        body, h1, h2, h3, h4, h5 {
+            font-family: "Raleway", sans-serif
+        }
+    </style>
+    <link href="/Assets/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body class="w3">
+
+    <!-- w3-content defines a container for fixed size centered content,
+    and is wrapped around the whole page content, except for the footer in this example -->
+    <div class="w3-content" style="max-width:1400px">
+
+        <!-- Header -->
+        @Html.Sitecore().Placeholder("header") <!-- dynamic rendering -->
+        <!-- Grid -->
+        <div class="w3-row">
+
+            @Html.Sitecore().Placeholder("main")  <!-- dynamic rendering -->
+            <!-- END GRID -->
+        </div><br>
+    </div>
+
+
+    @Html.Sitecore().Placeholder("footer") <!-- dynamic rendering -->
+    <!-- ################################################################################################ -->
+    <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+    <!-- JAVASCRIPTS -->
+    <script src="Assets/scripts/jquery.min.js"></script>
+    <script src="Assets/scripts/jquery.backtotop.js"></script>
+    <script src="Assets/scripts/jquery.mobilemenu.js"></script>
+    <script src="~/Assets/js/bootstrap.min.js"></script>
+    <script src="~/Assets/js/jquery.min.js"></script><script>eval(mod_pagespeed_6LX43FTmUZ);</script>
+    <script>eval(mod_pagespeed_c_JRN7CWTg);</script>
+    <script src="~/Assets/js/owl.carousel.min.js"></script>
+    <script>eval(mod_pagespeed_iP$iQxtJYW);</script>
+    <script>eval(mod_pagespeed_ReIMJHkyKC);</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

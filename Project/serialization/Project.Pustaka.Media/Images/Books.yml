@@ -1,0 +1,14 @@
+﻿---
+ID: "ef989ce4-349d-42e3-be89-0472d26d1954"
+Parent: "15451229-7534-44ef-815d-d93d6170bfcb"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Images/Books
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210705T064148Z

@@ -1,0 +1,24 @@
+﻿---
+ID: "abe51229-4201-4836-b1c4-06cb62452109"
+Parent: "de45c9bb-be23-4644-b719-0ef719893d4b"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/_aboutWriter/Writer Details/Other Books
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "query:fast:/sitecore/content/All Sites/Main Sites/Pustaka/Data//*[@@templatename = 'Books']"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Multilist
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210705T153037Z

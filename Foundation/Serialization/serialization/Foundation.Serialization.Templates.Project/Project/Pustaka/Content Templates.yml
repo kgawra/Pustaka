@@ -1,0 +1,14 @@
+﻿---
+ID: "12017aa5-fb35-4416-8595-8c71e4086aee"
+Parent: "7ed1f3cc-a5e8-4029-bcf1-ab2e19201b4c"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/Pustaka/Content Templates
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210705T090940Z

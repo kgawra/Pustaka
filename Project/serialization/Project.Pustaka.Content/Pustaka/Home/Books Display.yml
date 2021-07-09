@@ -1,0 +1,20 @@
+﻿---
+ID: "a1e2c86e-fcf7-4656-b8c6-1ccc2d86fca6"
+Parent: "f1e1da09-fddd-41dc-9944-65b5866aa0f5"
+Template: "ccefa8f9-40a4-4156-b755-e93e754fe033"
+Path: /sitecore/content/All Sites/Main Sites/Pustaka/Home/Books Display
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210704T141703Z
+    - ID: "2c9d2e49-2b2e-4e02-bd13-dd1b4fd3941e"
+      Hint: metaTitle
+      Value: Books Display
+    - ID: "c5687f02-c69e-4e4a-a073-25fb4bcce84a"
+      Hint: title
+      Value: Books Display

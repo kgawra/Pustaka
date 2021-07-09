@@ -1,0 +1,22 @@
+﻿---
+ID: "2d427a5d-43a2-4c29-93a5-4fcf7c48940f"
+Parent: "6ff60439-04f2-42fe-921c-e92fd6ede9bd"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/content/All Sites/Main Sites/Pustaka/Data
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {110C4BD4-4118-4FFA-BE77-F8F9CE197663}
+    {78CF88BA-6957-4366-8368-12F3CED0184F}
+    {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210705T153446Z

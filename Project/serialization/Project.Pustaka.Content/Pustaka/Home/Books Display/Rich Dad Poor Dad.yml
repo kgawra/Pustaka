@@ -1,0 +1,49 @@
+﻿---
+ID: "24aaed6f-093d-4bda-be19-aac77cf8a087"
+Parent: "a1e2c86e-fcf7-4656-b8c6-1ccc2d86fca6"
+Template: "a0ae2428-3cee-4c88-9b0a-0d041779d4fd"
+Path: /sitecore/content/All Sites/Main Sites/Pustaka/Home/Books Display/Rich Dad Poor Dad
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03c08088-f232-4f98-9e60-5c9e16674b03"
+      Hint: Name
+      Value: Robert Kiyosaki
+    - ID: "0eb99eaa-864c-48bb-a3a4-d147471f845c"
+      Hint: Price
+      Value: $11
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210705T201015Z
+    - ID: "3c68498a-30b6-450c-977b-f96229fad01b"
+      Hint: About
+      Value: Robert Toru Kiyosaki (born April 8, 1947) is an American businessman and author. Kiyosaki is the founder of Rich Global LLC and the Rich Dad Company, a private financial education company that provides personal finance and business education to people through books and videos.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{46DA5376-10DC-4B66-B464-AFDAA29DE84F}"
+    - ID: "4554a817-5a51-4078-acbc-b806462fd91f"
+      Hint: Category
+      Value: Influential
+    - ID: "885b11d5-cb97-42a2-a040-2839d89084cb"
+      Hint: Email Id
+      Value: "<link text='Email' linktype='mailto' style='' url='mailto:robert@gmail.com'  title='' />"
+    - ID: "abe51229-4201-4836-b1c4-06cb62452109"
+      Hint: Other Books
+      Type: Multilist
+      Value: "{E354108E-203D-4025-97DC-75575ED7A67B}"
+    - ID: "c22e1e04-c843-4d71-9aff-b6fef7974de9"
+      Hint: Title
+      Value: Rich Dad Poor Dad
+    - ID: "f1c7dee5-a3db-48bc-9efb-be798a70d009"
+      Hint: image
+      Value: |
+        <image mediaid="{06992BBD-707D-4312-B181-F26A72F8D129}" />
+    - ID: "f856eec5-9686-464b-852c-cf36fc313812"
+      Hint: Summary
+      Value: |
+        The overarching theme of Rich Dad Poor Dad is how to use money as a tool for wealth development. 
+        
+        It destroys the myth that the rich are born rich, explains why your personal residence may not really be an asset, describes the real difference between an asset and a liability, and much more.

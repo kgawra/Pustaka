@@ -1,0 +1,26 @@
+﻿@using Sitecore.Feature.BooksDisplay
+@model Sitecore.Feature.BooksDisplay.Models.AuthorDetails
+
+
+<div class="col-md-12">
+            <h1 style="text-align: center;">@Sitecore.Globalization.Translate.Text("All About")  @Model.AuthorName</h1>
+            <div class="lvm-table-popup-main">
+                <div class="lvm-table-popup-header">
+                    <h4>@Model.AuthorName</h4>
+                    <p>@Model.About</p>
+                </div>
+                <div class="lvm-table-popup-body">
+                    <div class="lvm-table-popup-body-tbl">
+                        <h3>@Sitecore.Globalization.Translate.Text("OtherBooks")</h3>
+                        <ul>
+                            @foreach (var otherBooks in Model.OtherBooks)
+                            {
+                                <li class="lvm-table-popup-body-tbl-item">
+                                    <div class="lvm-table-popup-body-tbl-item-lbl">@otherBooks</div>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>

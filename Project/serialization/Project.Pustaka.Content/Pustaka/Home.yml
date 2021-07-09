@@ -1,0 +1,35 @@
+﻿---
+ID: "f1e1da09-fddd-41dc-9944-65b5866aa0f5"
+Parent: "6ff60439-04f2-42fe-921c-e92fd6ede9bd"
+Template: "ebd5bff9-f9e0-41fa-91be-e45762e62cad"
+Path: /sitecore/content/All Sites/Main Sites/Pustaka/Home
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{15B7F1FD-7A2F-4D47-8945-25EEC0C49D24}"
+          s:ds="{A1E2C86E-FCF7-4656-B8C6-1CCC2D86FCA6}"
+          s:par="" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210704T111007Z
+    - ID: "2c9d2e49-2b2e-4e02-bd13-dd1b4fd3941e"
+      Hint: metaTitle
+      Value: Home
+    - ID: "c5687f02-c69e-4e4a-a073-25fb4bcce84a"
+      Hint: title
+      Value: Home

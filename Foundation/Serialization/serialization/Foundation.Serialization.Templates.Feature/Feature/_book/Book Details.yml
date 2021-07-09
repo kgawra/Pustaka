@@ -1,0 +1,14 @@
+﻿---
+ID: "e3218167-494d-4cc3-9476-86abea3fd8d9"
+Parent: "9d91d05b-8611-47da-b141-372652afb064"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/_book/Book Details
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210704T123829Z
